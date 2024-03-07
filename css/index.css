@@ -98,3 +98,6 @@ body {
     padding: 5px 10px;
     font-size: 11px;
 }
+.container-2 span a:hover {
+    color: var(--green);
+}
