@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Universal: Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  /* font-weight: 300; */
+}
+/* Universal: End */
+
+/* Root: Start */
+:root {
+    --background: #FFE6D5;
+    --green: #28C840;
+    --yellow: #FEBC2E;
+    --red: #FE5F57;
+    --gray-font: #BABABA;
+    --black-terminal: #1E1E1F;
+    --gray-terminal: #3E3E3E;
+    --black: #282828;
+    --gray: #494949;
+
+}
+/* Root: End */
+
+/* Body: Start */
+body {
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Body: End */
+
+/* Content: Start */
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-terminal);
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px 10px 0 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--gray-font);
+}
+#folder {
+    height: 13px;
+    margin: 5px;
+}
+#circle1 {
+    position: absolute;
+    top: 158px;
+    left: 400px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--red);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#circle2 {
+    position: absolute;
+    top: 158px;
+    left: 415px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#circle3 {
+    position: absolute;
+    top: 158px;
+    left: 430px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--green);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container-2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--black-terminal);
+    position: absolute;
+    top: 175px;
+    width: 500px;
+    height: 300px;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 10px;
+    font-size: 11px;
+}
