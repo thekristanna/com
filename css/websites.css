@@ -313,3 +313,23 @@ body {
     margin: 0 7px 0 0;
 }
 /* Content: End */
+
+/* Media Query */
+@media (max-width: 1279px) {
+    body {
+        background-image: none;
+        background-color: #BF9FEB;
+    }
+    .header-pages {
+        display: none;
+    }
+    .folders {
+        display: none;
+    }
+    .finder-sidebar {
+        display: none;
+    }
+    .finder-main {
+        display: none;
+    }
+}

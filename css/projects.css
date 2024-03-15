@@ -283,3 +283,23 @@ body {
     margin: 5px 5px -5px;
 }
 /* Content: End */
+
+/* Media Query */
+@media (max-width: 1279px) {
+    body {
+        background-image: none;
+        background-color: #BF9FEB;
+    }
+    .header-pages {
+        display: none;
+    }
+    .folders {
+        display: none;
+    }
+    .finder-sidebar {
+        display: none;
+    }
+    .finder-main {
+        display: none;
+    }
+}

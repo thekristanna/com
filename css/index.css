@@ -125,3 +125,23 @@ body {
     margin-top: -5px;
     font-weight: 500;
 }
+
+/* Media Query */
+@media (max-width: 1279px) {
+    body {
+        background-image: none;
+        background-color: #BF9FEB;
+    }
+    .header-pages {
+        display: none;
+    }
+    .folders {
+        display: none;
+    }
+    .finder-sidebar {
+        display: none;
+    }
+    .finder-main {
+        display: none;
+    }
+}
